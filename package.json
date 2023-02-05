@@ -1,0 +1,22 @@
+{
+  "name": "tugaspekanan4",
+  "version": "1.0.0",
+  "description": "Tugas Pekanan 4 (SanberCode - Alfaresta)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfarestaat/TugasPekanan4.git"
+  },
+  "keywords": [
+    "Tugas"
+  ],
+  "author": "Alfaresta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfarestaat/TugasPekanan4/issues"
+  },
+  "homepage": "https://github.com/alfarestaat/TugasPekanan4#readme"
+}
