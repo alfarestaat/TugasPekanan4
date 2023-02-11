@@ -18,8 +18,8 @@ npm run test
 I create (CRUD flow) with assert positive and negative scenario Product KasirAja using Mocha Chai Supertest.
 List scenario and test case:
 1. User Login: 
-    a. A user can log in with a valid email and password also can get information accessToken.
-    Expected Result: Access token can't to be a null. Also use response "accessToken" to be environment
+    \na. A user can log in with a valid email and password also can get information accessToken.
+    \nExpected Result: Access token can't to be a null. Also use response "accessToken" to be environment
 2. Add Product: 
     a. Positive: Using from environment "accessToken", a product can be added with a valid request payload. 
     Expected Result: The response should have a status of 201. Also use response "productId" to be environment
