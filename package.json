@@ -4,7 +4,7 @@
   "description": "Tugas Pekanan 4 (SanberCode - Alfaresta)",
   "main": "index.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "mocha test/Product.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/alfarestaat/TugasPekanan4/issues"
   },
-  "homepage": "https://github.com/alfarestaat/TugasPekanan4#readme"
+  "homepage": "https://github.com/alfarestaat/TugasPekanan4#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.0.3",
+    "jsonschema": "^1.4.1",
+    "supertest": "^6.3.3"
+  }
 }
