@@ -1,6 +1,8 @@
 # TugasPekanan4
 Tugas Pekanan 4 - API Automation using Mocha Chai Supertest (Sanber Code - Alfaresta)
 <br>
+Recording execution script: https://drive.google.com/file/d/189C4rp6CGfDz-0RNwdsHr_vvTONEzbcr/view?usp=share_link
+<br>
 How to Run this repository:
 1. Clone this repository
 ```
