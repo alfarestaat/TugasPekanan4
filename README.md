@@ -19,7 +19,7 @@ I create (CRUD flow) with assert positive and negative scenario Product KasirAja
 <br>List scenario and test case:
 <br>1. User Login: 
     <br><ol><li>a. A user can log in with a valid email and password also can get information accessToken.</li>
-    <br><li>Expected Result: Access token can't to be a null. Also use response "accessToken" to be environment</li></ol>
+    <br>Expected Result: Access token can't to be a null. Also use response "accessToken" to be environment</ol>
 <br>2. Add Product: 
     <br>a. Positive: Using from environment "accessToken", a product can be added with a valid request payload. 
     <br>Expected Result: The response should have a status of 201. Also use response "productId" to be environment
