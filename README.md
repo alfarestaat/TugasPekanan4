@@ -1,6 +1,6 @@
 # TugasPekanan4
 Tugas Pekanan 4 - API Automation using Mocha Chai Supertest (Sanber Code - Alfaresta)
-
+<br>
 How to Run this repository:
 1. Clone this repository
 ```
@@ -14,16 +14,16 @@ npm install
 ```
 npm run test
 ```
-
+<br>
 I create (CRUD flow) with assert positive and negative scenario Product KasirAja using Mocha Chai Supertest.
-List scenario and test case:
+<br>List scenario and test case:
 1. User Login: 
     <br>a. A user can log in with a valid email and password also can get information accessToken.
     <br>Expected Result: Access token can't to be a null. Also use response "accessToken" to be environment
 2. Add Product: 
     <br>a. Positive: Using from environment "accessToken", a product can be added with a valid request payload. 
     <br>Expected Result: The response should have a status of 201. Also use response "productId" to be environment
-    <br>b. Negatif: Using from environment "accessToken", User can't Add Product because Price must be greater than Cost. 
+    <br>b. Negative: Using from environment "accessToken", User can't Add Product because Price must be greater than Cost. 
     <br>Expected Result: The response should have a status of 400.
 3. Get Product: 
     <br>a. Positive: Using from environment "accessToken" and "productId", a product can be retrieved by Product ID. 
