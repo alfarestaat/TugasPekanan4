@@ -2,7 +2,6 @@ const chai = require("chai");
 const expect = require("chai").expect;
 const chaiHttp = require("chai-http");
 require('dotenv').config()
-
 chai.use(chaiHttp)
 
 const api = chai.request(process.env.BASE_URL)
