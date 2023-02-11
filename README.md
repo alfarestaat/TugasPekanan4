@@ -40,5 +40,5 @@ I create (CRUD flow) with assert positive and negative scenario Product KasirAja
 <br>5. Delete Product: 
     <br>a. Positive: Using from environment "accessToken" and "productId", a product can be deleted. 
     <br>Expected Result: The response should have a status "success" and a message "Product berhasil dihapus".
-    <br>b. Negative: Using from environment "accessToken" and "productId", An error will be returned if a product cannot be deleted. 
+    <br>b. Negative: Using from environment "accessToken", An error will be returned if a product id is not found. 
     <br>Expected Result: The response should have a message "id tidak valid".
