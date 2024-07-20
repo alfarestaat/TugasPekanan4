@@ -4,7 +4,7 @@
   "description": "Tugas Pekanan 4 (SanberCode - Alfaresta)",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/Product.js"
+    "test": "mocha test/Reqres.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "chai-http": "^4.3.0",
     "dotenv": "^16.0.3",
     "jsonschema": "^1.4.1",
+    "mocha": "^10.6.0",
     "supertest": "^6.3.3"
   }
 }
